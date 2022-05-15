@@ -41,7 +41,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 73);
+            this.label1.Location = new System.Drawing.Point(19, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 15);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 123);
+            this.label2.Location = new System.Drawing.Point(30, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 15);
             this.label2.TabIndex = 1;
@@ -59,7 +59,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(296, 126);
+            this.label3.Location = new System.Drawing.Point(296, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 15);
             this.label3.TabIndex = 2;
@@ -68,14 +68,14 @@
             // cbx_Disciplinas
             // 
             this.cbx_Disciplinas.FormattingEnabled = true;
-            this.cbx_Disciplinas.Location = new System.Drawing.Point(83, 70);
+            this.cbx_Disciplinas.Location = new System.Drawing.Point(83, 24);
             this.cbx_Disciplinas.Name = "cbx_Disciplinas";
             this.cbx_Disciplinas.Size = new System.Drawing.Size(534, 23);
             this.cbx_Disciplinas.TabIndex = 3;
             // 
             // txt_Nome
             // 
-            this.txt_Nome.Location = new System.Drawing.Point(83, 123);
+            this.txt_Nome.Location = new System.Drawing.Point(83, 77);
             this.txt_Nome.Name = "txt_Nome";
             this.txt_Nome.Size = new System.Drawing.Size(194, 23);
             this.txt_Nome.TabIndex = 4;
@@ -83,7 +83,7 @@
             // btnGravar
             // 
             this.btnGravar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnGravar.Location = new System.Drawing.Point(349, 198);
+            this.btnGravar.Location = new System.Drawing.Point(349, 152);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(126, 40);
             this.btnGravar.TabIndex = 7;
@@ -94,7 +94,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(491, 198);
+            this.btnCancelar.Location = new System.Drawing.Point(491, 152);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(126, 40);
             this.btnCancelar.TabIndex = 8;
@@ -104,7 +104,7 @@
             // cbx_Turma
             // 
             this.cbx_Turma.FormattingEnabled = true;
-            this.cbx_Turma.Location = new System.Drawing.Point(349, 120);
+            this.cbx_Turma.Location = new System.Drawing.Point(349, 74);
             this.cbx_Turma.Name = "cbx_Turma";
             this.cbx_Turma.Size = new System.Drawing.Size(268, 23);
             this.cbx_Turma.TabIndex = 9;
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(646, 250);
+            this.ClientSize = new System.Drawing.Size(646, 213);
             this.Controls.Add(this.cbx_Turma);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGravar);
