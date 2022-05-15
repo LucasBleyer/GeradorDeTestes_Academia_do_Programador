@@ -15,7 +15,6 @@ namespace Testes.WinApp.ModuloMatérias
         private RepositorioMateriaEmArquivo repositorioMateria;
         private TabelaMateriasControl tabelaMaterias;
 
-
         public ControladorMateria(RepositorioMateriaEmArquivo repositorioMateria)
         {
             this.repositorioMateria = repositorioMateria;
