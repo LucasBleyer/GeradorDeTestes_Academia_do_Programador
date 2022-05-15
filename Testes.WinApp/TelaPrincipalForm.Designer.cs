@@ -64,8 +64,8 @@
             // MenuStrip
             // 
             this.MenuStrip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.questoesMenuItem,
             this.matériasMenuItem,
+            this.questoesMenuItem,
             this.provasMenuItem});
             this.MenuStrip.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MenuStrip.Image = global::Testes.WinApp.Properties.Resources.edit_note_FILL0_wght400_GRAD0_opsz48;
@@ -76,22 +76,22 @@
             // questoesMenuItem
             // 
             this.questoesMenuItem.Name = "questoesMenuItem";
-            this.questoesMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.questoesMenuItem.Size = new System.Drawing.Size(139, 24);
             this.questoesMenuItem.Text = "Questões";
             this.questoesMenuItem.Click += new System.EventHandler(this.questõesMenuItem_Click);
             // 
             // matériasMenuItem
             // 
             this.matériasMenuItem.Name = "matériasMenuItem";
-            this.matériasMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.matériasMenuItem.Size = new System.Drawing.Size(139, 24);
             this.matériasMenuItem.Text = "Matérias";
             this.matériasMenuItem.Click += new System.EventHandler(this.matériasMenuItem_Click);
             // 
             // provasMenuItem
             // 
             this.provasMenuItem.Name = "provasMenuItem";
-            this.provasMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.provasMenuItem.Text = "Provas";
+            this.provasMenuItem.Size = new System.Drawing.Size(139, 24);
+            this.provasMenuItem.Text = "Testes";
             this.provasMenuItem.Click += new System.EventHandler(this.provasMenuItem_Click);
             // 
             // toolStrip1
