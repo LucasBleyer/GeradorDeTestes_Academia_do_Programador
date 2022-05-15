@@ -8,6 +8,6 @@ namespace Testes.Dominio.ModuloMatérias
 {
     public enum DisciplinaEnum
     {
-        Matemática, Português, História, Geografia
+        Artes, Inglês, Matemática, Português, Geografia, História
     }
 }
