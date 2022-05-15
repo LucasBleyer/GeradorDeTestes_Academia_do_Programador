@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Testes.Dominio", "2-Teste
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Testes.Infra.Arquivos", "3-Testes.Infra.Arquivos", "{FF057CC8-014F-4856-82EE-3EC248008484}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Testes.View", "1-Testes.View", "{3F8BB4A9-D864-46B9-8639-8887255C0225}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Testes.Apresentacao", "1-Testes.Apresentacao", "{3F8BB4A9-D864-46B9-8639-8887255C0225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes.Infra.Arquivos", "Testes.Infra.Arquivos\Testes.Infra.Arquivos.csproj", "{4BCB770D-9A2F-4556-872E-31C65A89E390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testes.Infra.Arquivos", "Testes.Infra.Arquivos\Testes.Infra.Arquivos.csproj", "{4BCB770D-9A2F-4556-872E-31C65A89E390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes.Dominio", "Testes.Dominio\Testes.Dominio.csproj", "{F0E045D9-EEEB-4B99-9B78-BB0AA549EA0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testes.Dominio", "Testes.Dominio\Testes.Dominio.csproj", "{F0E045D9-EEEB-4B99-9B78-BB0AA549EA0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
