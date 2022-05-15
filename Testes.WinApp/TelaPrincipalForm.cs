@@ -78,8 +78,6 @@ namespace Testes.WinApp
 
         }
 
-        #region métodos privados
-
         private void ConfiguracaoToolStripQuestoes()
         {
             btnPDF.Visible = false;
@@ -108,19 +106,15 @@ namespace Testes.WinApp
         {
             var repositorioMateria = new RepositorioMateriaEmArquivo(contextoDados);
             var repositorioQuestao = new RepositorioQestaoEmArquivo(contextoDados);
-            //var repositorioTeste = new RepositorioTesteEmArquivo(contextoDados);
 
             controladores = new Dictionary<string, ControladorBase>();
             
             controladores.Add("Matérias", new ControladorMateria(repositorioMateria));
             controladores.Add("Questões", new ControladorQuestao(repositorioQuestao));
-            //controladores.Add("Teste", new ControladorCompromisso(repositorioCompromisso, repositorioContato));
         }
 
         private void ConfigurarListagem()
         {
-            //AtualizarRodape("");
-
             var listagemControl = controlador.ObtemListagem();
 
             PainelRegistros.Controls.Clear();
@@ -135,12 +129,7 @@ namespace Testes.WinApp
             var tipo = opcaoSelecionada.Text;
 
             controlador = controladores[tipo];
-
-            //ConfigurarToolbox();
-
             ConfigurarListagem();
         }
-        #endregion
-
     }
 }
