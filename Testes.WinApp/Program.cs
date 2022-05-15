@@ -10,7 +10,7 @@ namespace Testes.WinApp
 {
     internal static class Program
     {
-        static ISerializador serializador = new SerializadorDadosEmJsonDotnet();
+        static ISerializador serializador = new SerializadorJson();
 
         static DataContext contexto = new DataContext(serializador);
 

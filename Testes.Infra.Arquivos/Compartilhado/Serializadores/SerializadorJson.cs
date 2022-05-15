@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Testes.Infra.Arquivos.Compartilhado.Serializadores
 {
-    public class SerializadorDadosEmJsonDotnet : ISerializador
+    public class SerializadorJson : ISerializador
     {
         private const string arquivo = @"C:\Temp\dados.json";
 
