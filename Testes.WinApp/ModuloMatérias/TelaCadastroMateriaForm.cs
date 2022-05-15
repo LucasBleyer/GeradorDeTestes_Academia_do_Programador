@@ -45,8 +45,6 @@ namespace Testes.WinApp.ModuloMatérias
             {
                 string erro = resultadoValidacao.Errors[0].ErrorMessage;
 
-                //TelaPrincipalForm.Instancia.AtualizarRodape(erro);
-
                 DialogResult = DialogResult.None;
             }
         }
