@@ -30,13 +30,13 @@ namespace Testes.WinApp.ModuloQuestões
             set
             {
                 questao = value;
-                txtTitulo.Text = questao.titulo;
+                txtTitulo.Text = questao.Titulo;
             }
         }
 
         private void btnGravar_Click_1(object sender, EventArgs e)
         {
-            questao.titulo = txtTitulo.Text;
+            questao.Titulo = txtTitulo.Text;
 
             var resultadoValidacao = GravarRegistro(questao);
 

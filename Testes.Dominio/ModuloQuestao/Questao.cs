@@ -10,21 +10,19 @@ namespace Testes.Dominio.ModuloQuestao
 {
     public class Questao : EntidadeBase<Questao>
     {
-        public Materia materia { get; set; }
-
-        public DisciplinaEnum disciplina { get; set; }
-        public string titulo { get; set; }
-        public string enunciado { get; set; }
-        public List<string> alternativas { get; set; }
-        public string gabarito { get; set; }
+        public Materia Materia { get; set; }
+        public DisciplinaEnum Disciplina { get; set; }
+        public string Titulo { get; set; }
+        public string Enunciado { get; set; }
+        public List<string> Alternativas { get; set; }
+        public string Gabarito { get; set; }
 
         public override void Atualizar(Questao registro)
         {
-            this.materia = registro.materia;
-            this.enunciado = registro.enunciado;
-            this.alternativas = registro.alternativas;
-            this.gabarito = registro.gabarito;
-
+            this.Materia = registro.Materia;
+            this.Enunciado = registro.Enunciado;
+            this.Alternativas = registro.Alternativas;
+            this.Gabarito = registro.Gabarito;
         }
     }
 }

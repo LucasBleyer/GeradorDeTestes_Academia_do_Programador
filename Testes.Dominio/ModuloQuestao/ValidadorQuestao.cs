@@ -13,7 +13,7 @@ namespace Testes.Dominio.ModuloQuestao
         {
             //implementar o resto das condições de crud;
 
-            RuleFor(x => x.titulo).NotNull().NotEmpty();
+            RuleFor(x => x.Titulo).NotNull().NotEmpty();
         }
     }
 }
