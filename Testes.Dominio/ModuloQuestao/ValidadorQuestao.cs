@@ -11,8 +11,6 @@ namespace Testes.Dominio.ModuloQuestao
     {
         public ValidadorQuestao()
         {
-            //implementar o resto das condições de crud;
-
             RuleFor(x => x.Titulo).NotNull().NotEmpty();
         }
     }
