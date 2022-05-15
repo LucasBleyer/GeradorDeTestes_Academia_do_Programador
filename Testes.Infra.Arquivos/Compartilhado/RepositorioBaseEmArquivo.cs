@@ -61,7 +61,6 @@ namespace Testes.Infra.Arquivos.Compartilhado
                     }
                 }
             }
-
             return resultadoValidacao;
         }
 
