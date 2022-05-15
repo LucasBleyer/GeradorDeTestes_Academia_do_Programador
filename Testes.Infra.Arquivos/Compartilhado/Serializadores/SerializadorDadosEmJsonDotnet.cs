@@ -8,7 +8,6 @@ namespace Testes.Infra.Arquivos.Compartilhado.Serializadores
     public class SerializadorDadosEmJsonDotnet : ISerializador
     {
         private const string arquivo = @"C:\Temp\dados.json";
-        //se der errado é pq o t é T
 
         public DataContext CarregarDadosDoArquivo()
         {
