@@ -12,10 +12,10 @@ namespace Testes.WinApp.ModuloQuestões
 {
     public class ControladorQuestao : ControladorBase
     {
-        private RepositorioQestaoEmArquivo repositorioQestao;
+        private RepositorioQuestaoEmArquivo repositorioQestao;
         private TabelaQuestaoControl tabelaQuestaos;
 
-        public ControladorQuestao(RepositorioQestaoEmArquivo repositorioQestao)
+        public ControladorQuestao(RepositorioQuestaoEmArquivo repositorioQestao)
         {
             this.repositorioQestao = repositorioQestao;
         }

@@ -105,7 +105,7 @@ namespace Testes.WinApp
         private void InicializarControladores()
         {
             var repositorioMateria = new RepositorioMateriaEmArquivo(contextoDados);
-            var repositorioQuestao = new RepositorioQestaoEmArquivo(contextoDados);
+            var repositorioQuestao = new RepositorioQuestaoEmArquivo(contextoDados);
 
             controladores = new Dictionary<string, ControladorBase>();
             

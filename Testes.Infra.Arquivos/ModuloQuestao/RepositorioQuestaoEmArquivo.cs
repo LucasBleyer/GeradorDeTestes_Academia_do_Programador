@@ -9,9 +9,9 @@ using Testes.Infra.Arquivos.Compartilhado;
 
 namespace Testes.Infra.Arquivos.ModuloQuestao
 {
-    public class RepositorioQestaoEmArquivo : RepositorioBaseEmArquivo<Questao>
+    public class RepositorioQuestaoEmArquivo : RepositorioBaseEmArquivo<Questao>
     {
-        public RepositorioQestaoEmArquivo(DataContext dataContext) : base(dataContext)
+        public RepositorioQuestaoEmArquivo(DataContext dataContext) : base(dataContext)
         {
         }
 
