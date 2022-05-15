@@ -31,13 +31,13 @@ namespace Testes.WinApp.ModuloMatérias
             set
             {
                 materia = value;
-                txt_Nome.Text = materia.nome;
+                txt_Nome.Text = materia.Nome;
             }
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
-            materia.nome = txt_Nome.Text;
+            materia.Nome = txt_Nome.Text;
 
             var resultadoValidacao = GravarRegistro(materia);
 

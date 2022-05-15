@@ -32,7 +32,7 @@ namespace Testes.WinApp.ModuloMatérias
 
             foreach (Materia m in materias)
             {
-                tabelaMaterias.Rows.Add(m.Numero, m.nome);
+                tabelaMaterias.Rows.Add(m.Numero, m.Nome);
             }
         }
 

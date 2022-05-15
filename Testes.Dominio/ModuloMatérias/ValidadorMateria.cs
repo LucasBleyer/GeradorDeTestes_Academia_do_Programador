@@ -11,7 +11,7 @@ namespace Testes.Dominio.ModuloMatérias
     {
         public ValidadorMateria()
         {
-            RuleFor(x => x.nome).NotNull().NotEmpty();
+            RuleFor(x => x.Nome).NotNull().NotEmpty();
         }
     }
 }

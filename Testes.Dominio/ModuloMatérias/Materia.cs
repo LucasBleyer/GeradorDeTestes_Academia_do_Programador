@@ -10,10 +10,10 @@ namespace Testes.Dominio.ModuloMatérias
 {
     public class Materia : EntidadeBase<Materia>
     {
-        public string nome { get; set; }
-        public DisciplinaEnum disciplina { get; set; }
-        public List<Questao> questoes { get; set; }
-        public string turma { get; set; }
+        public string Nome { get; set; }
+        public DisciplinaEnum Disciplina { get; set; }
+        public List<Questao> Questoes { get; set; }
+        public string Serie { get; set; }
 
         public Materia()
         {
@@ -21,8 +21,7 @@ namespace Testes.Dominio.ModuloMatérias
 
         public override void Atualizar(Materia registro)
         {
-            this.nome = registro.nome;
+            this.Nome = registro.Nome;
         }
-        
     }
 }
